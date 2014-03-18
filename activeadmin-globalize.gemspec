@@ -16,6 +16,6 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "README.md"]
 
   s.add_dependency "activeadmin"
-  s.add_dependency "globalize", '~> 4.0.0'
+  s.add_dependency "globalize", '~> 3.1.0'
 end
 
